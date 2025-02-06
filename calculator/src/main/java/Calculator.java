@@ -54,7 +54,7 @@ public class Calculator {
                 break;
             default:
                 System.out.println("Операция не распознана. Повторите ввод.");
-                result = calc(operand1, operand2, getOperation());//рекурсия
+                result = calc(operand1, operand2, getOperation());
         }
         return result;
     }
